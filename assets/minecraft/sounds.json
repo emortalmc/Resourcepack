@@ -1,0 +1,7 @@
+{
+    "item.trumpet.doot": {
+        "category": "master",
+		"subtitle": "Trumpet doot plays",
+        "sounds": ["custom/doot"]
+    }
+}
