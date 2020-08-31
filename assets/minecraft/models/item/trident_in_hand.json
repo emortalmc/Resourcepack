@@ -2,7 +2,7 @@
     "parent": "builtin/entity",
     "gui_light": "front",
     "textures": {
-        "layer0": "item/trident_throwin"
+        "layer0": "items/trident_throwin"
     },
     "display": {
         "thirdperson_righthand": {
