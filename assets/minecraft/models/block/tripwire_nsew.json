@@ -1,8 +1,8 @@
 {
     "ambientocclusion": false,
     "textures": {
-        "particle": "block/tripwire1",
-        "texture": "block/tripwire1"
+        "particle": "blocks/tripwire1",
+        "texture": "blocks/tripwire1"
     },
     "elements": [
         {   "from": [ 7.75, 1.5, 0 ],
