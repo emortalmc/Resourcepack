@@ -8,6 +8,15 @@
 			"chars": [
 				"\uEff1"
 			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/fish.png",
+			"ascent": 7,
+			"height": 8,
+			"chars": [
+				"\uEff2"
+			]
 		}
 	]
 }
