@@ -1,0 +1,13 @@
+{
+	"providers": [
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/chicken.png",
+			"ascent": 7,
+			"height": 8,
+			"chars": [
+				"\uEff1"
+			]
+		}
+	]
+}
