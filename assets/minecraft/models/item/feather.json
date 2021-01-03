@@ -4,6 +4,6 @@
 		"layer0": "item/feather"
 	},
 	"overrides": [
-		{"predicate": {"custom_model_data":1}, "model": "item/spear"}
+		{"predicate": {"custom_model_data":1}, "model": "item/iron_dagger"}
 	]
 }
