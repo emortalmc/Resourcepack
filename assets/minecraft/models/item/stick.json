@@ -1,7 +1,7 @@
 {
 	"parent": "item/handheld",
 	"textures": {
-		"layer0": "item/feather"
+		"layer0": "item/stick"
 	},
 	"overrides": [
 		{"predicate": {"custom_model_data":1}, "model": "item/iron_dagger"}
