@@ -17,6 +17,33 @@
 			"chars": [
 				"\uEff2"
 			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/toad.png",
+			"ascent": 7,
+			"height": 8,
+			"chars": [
+				"\uEff3"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/armor.png",
+			"ascent": 8,
+			"height": 9,
+			"chars": [
+				"\uEff4"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/llama.png",
+			"ascent": 7,
+			"height": 8,
+			"chars": [
+				"\uEff5"
+			]
 		}
 	]
 }
