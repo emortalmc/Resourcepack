@@ -1,6 +1,13 @@
 {
 	"providers": [
 		{
+			"type": "ttf",
+			"file": "minecraft:spacing.ttf",
+			"shift": [0.0, 0.0],
+			"size": 10.0,
+			"oversample": 1.0
+		},
+		{
 			"type": "bitmap",
 			"file": "minecraft:font/chicken.png",
 			"ascent": 7,
@@ -30,7 +37,7 @@
 		{
 			"type": "bitmap",
 			"file": "minecraft:font/armor.png",
-			"ascent": 8,
+			"ascent": -15,
 			"height": 9,
 			"chars": [
 				"\uEff4"
