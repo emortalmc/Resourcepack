@@ -44,6 +44,42 @@
 			"chars": [
 				"\uEff5"
 			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/0.png",
+			"ascent": 6,
+			"height": 7,
+			"chars": [
+				"\uEff6"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/1.png",
+			"ascent": 6,
+			"height": 7,
+			"chars": [
+				"\uEff7"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/2.png",
+			"ascent": 6,
+			"height": 7,
+			"chars": [
+				"\uEff8"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/3.png",
+			"ascent": 6,
+			"height": 7,
+			"chars": [
+				"\uEff9"
+			]
 		}
 	]
 }
