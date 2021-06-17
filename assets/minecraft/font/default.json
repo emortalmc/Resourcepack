@@ -1,0 +1,65 @@
+{
+	"providers": [
+		{
+			"type": "ttf",
+			"file": "minecraft:spacing.ttf",
+			"shift": [0.0, 0.0],
+			"size": 10.0,
+			"oversample": 1.0
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/chicken.png",
+			"ascent": 7,
+			"height": 8,
+			"chars": [
+				"\uEff1"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/fish.png",
+			"ascent": 7,
+			"height": 8,
+			"chars": [
+				"\uEff2"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/toad.png",
+			"ascent": 7,
+			"height": 8,
+			"chars": [
+				"\uEff3"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/armor.png",
+			"ascent": 7,
+			"height": 8,
+			"chars": [
+				"\uEff4"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/llama.png",
+			"ascent": 7,
+			"height": 8,
+			"chars": [
+				"\uEff5"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/eye.png",
+			"ascent": 7,
+			"height": 8,
+			"chars": [
+				"\uEff6"
+			]
+		}
+	]
+}
