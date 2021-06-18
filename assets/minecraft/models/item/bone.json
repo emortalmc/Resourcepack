@@ -1,0 +1,9 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/bone"
+	},
+	"overrides": [
+		{"predicate": {"custom_model_data":1}, "model": "item/shattered_bone_sword"}
+	]
+}
