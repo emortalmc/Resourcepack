@@ -1,9 +1,0 @@
-{
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "blocks/glass_gray"
-    },
-	"overrides": [
-		{"predicate": {"custom_model_data":1}, "model": "item/panelui"}
-	]
-}
