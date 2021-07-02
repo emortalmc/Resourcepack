@@ -60,6 +60,15 @@
 			"chars": [
 				"\uEff6"
 			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/error.png",
+			"ascent": 7,
+			"height": 7,
+			"chars": [
+				"\uEff7"
+			]
 		}
 	]
 }
