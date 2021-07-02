@@ -69,6 +69,24 @@
 			"chars": [
 				"\uEff7"
 			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/question.png",
+			"ascent": 7,
+			"height": 7,
+			"chars": [
+				"\uEff8"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/info.png",
+			"ascent": 7,
+			"height": 7,
+			"chars": [
+				"\uEff9"
+			]
 		}
 	]
 }
