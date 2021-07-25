@@ -4,8 +4,8 @@
         "layer0": "item/phantom_membrane"
     },
 	"overrides": [
-		{"predicate": {"custom_model_data":1}, "model": "item/trumpet"}
-		{"predicate": {"custom_model_data":2}, "model": "item/bongo"}
+		{"predicate": {"custom_model_data":1}, "model": "item/trumpet"},
+		{"predicate": {"custom_model_data":2}, "model": "item/bongo"},
 		{"predicate": {"custom_model_data":3}, "model": "item/gong"}
 	]
 }
