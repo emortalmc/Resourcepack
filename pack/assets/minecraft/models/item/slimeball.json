@@ -1,7 +1,7 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "item/creeper_head"
+        "layer0": "item/slimeball"
     },
 	"overrides": [
 		{"predicate": {"custom_model_data":1}, "model": "item/toad_helm"}
