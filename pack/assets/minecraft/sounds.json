@@ -11,7 +11,7 @@
     },
     "item.accordion.cord": {
         "category": "master",
-        "subtitle": "Accordion plays",
+        "subtitle": "Accordion cord plays",
         "sounds": ["custom/accordion"]
     },
     "item.gong.bang": {
