@@ -90,7 +90,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "minecraft:font/cepi.png",
+			"file": "minecraft:font/cepi-menu.png",
 			"ascent": 40,
 			"height": 64,
 			"chars": [
