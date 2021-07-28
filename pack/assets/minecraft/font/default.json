@@ -91,7 +91,7 @@
 		{
 			"type": "bitmap",
 			"file": "minecraft:font/cepi.png",
-			"ascent": -2,
+			"ascent": 40,
 			"height": 64,
 			"chars": [
 				"\uE009"
