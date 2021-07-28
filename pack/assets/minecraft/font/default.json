@@ -13,7 +13,7 @@
 			"ascent": 7,
 			"height": 8,
 			"chars": [
-				"\uEff1"
+				"\uE000"
 			]
 		},
 		{
@@ -22,7 +22,7 @@
 			"ascent": 7,
 			"height": 8,
 			"chars": [
-				"\uEff2"
+				"\uE001"
 			]
 		},
 		{
@@ -31,7 +31,7 @@
 			"ascent": 7,
 			"height": 8,
 			"chars": [
-				"\uEff3"
+				"\uE002"
 			]
 		},
 		{
@@ -40,7 +40,7 @@
 			"ascent": 7,
 			"height": 8,
 			"chars": [
-				"\uEff4"
+				"\uE003"
 			]
 		},
 		{
@@ -49,7 +49,7 @@
 			"ascent": 7,
 			"height": 8,
 			"chars": [
-				"\uEff5"
+				"\uE004"
 			]
 		},
 		{
@@ -58,7 +58,7 @@
 			"ascent": 7,
 			"height": 8,
 			"chars": [
-				"\uEff6"
+				"\uE005"
 			]
 		},
 		{
@@ -67,7 +67,7 @@
 			"ascent": 7,
 			"height": 7,
 			"chars": [
-				"\uEff7"
+				"\uE006"
 			]
 		},
 		{
@@ -76,7 +76,7 @@
 			"ascent": 7,
 			"height": 7,
 			"chars": [
-				"\uEff8"
+				"\uE007"
 			]
 		},
 		{
@@ -85,8 +85,18 @@
 			"ascent": 7,
 			"height": 7,
 			"chars": [
-				"\uEff9"
+				"\uE008"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/cepi.png",
+			"ascent": -2,
+			"height": 32,
+			"chars": [
+				"\uE009"
 			]
 		}
+		
 	]
 }
