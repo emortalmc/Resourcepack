@@ -1,7 +1,22 @@
 {
     "item.trumpet.doot": {
         "category": "master",
-		"subtitle": "Trumpet doot plays",
+        "subtitle": "Trumpet doot plays",
         "sounds": ["custom/doot"]
+    },
+    "item.bongo.bong": {
+        "category": "master",
+        "subtitle": "Bongo bong plays",
+        "sounds": ["custom/bong"]
+    },
+    "item.accordion.cord": {
+        "category": "master",
+        "subtitle": "Accordion plays",
+        "sounds": ["custom/accordion"]
+    },
+    "item.gong.bang": {
+        "category": "master",
+        "subtitle": "Gong bang plays",
+        "sounds": ["custom/gong"]
     }
 }
