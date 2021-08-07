@@ -1,5 +1,7 @@
 {
     "menu.game": "\uE009",
     "menu.returnToGame": "Back to Cepi",
-    "menu.shareToLan": "§f§3cepi.world"
+    "menu.shareToLan": "§f§3cepi.world",
+    "menu.loadingLevel": "",
+    "connect.joining": ""
 }
