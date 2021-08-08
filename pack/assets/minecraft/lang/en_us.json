@@ -3,5 +3,6 @@
     "menu.returnToGame": "Back to Cepi",
     "menu.shareToLan": "§f§3cepi.world",
     "menu.loadingLevel": "",
-    "connect.joining": ""
+    "connect.joining": "",
+    "multiplayer.downloadingTerrain": ""
 }
