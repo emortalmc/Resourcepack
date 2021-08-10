@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "block/purpur_slab"
+    },
+    "type=double": {
+      "model": "block/lootcrate"
+    },
+    "type=top": {
+      "model": "block/purpur_slab"
+    }
+  }
+}
