@@ -7,7 +7,7 @@
       "model": "block/lootcrate"
     },
     "type=top": {
-      "model": "block/purpur_slab"
+      "model": "block/purpur_slab_top"
     }
   }
 }
