@@ -1,6 +1,6 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "block/cube_all",
+	"ambientocclusion": false,
 	"textures": {
 		"1": "blocks/lootcrateshell",
 		"2": "blocks/spruce_planks",
