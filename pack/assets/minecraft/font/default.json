@@ -9,60 +9,6 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "minecraft:font/chicken.png",
-			"ascent": 7,
-			"height": 8,
-			"chars": [
-				"\uE000"
-			]
-		},
-		{
-			"type": "bitmap",
-			"file": "minecraft:font/fish.png",
-			"ascent": 7,
-			"height": 8,
-			"chars": [
-				"\uE001"
-			]
-		},
-		{
-			"type": "bitmap",
-			"file": "minecraft:font/toad.png",
-			"ascent": 7,
-			"height": 8,
-			"chars": [
-				"\uE002"
-			]
-		},
-		{
-			"type": "bitmap",
-			"file": "minecraft:font/armor.png",
-			"ascent": 7,
-			"height": 8,
-			"chars": [
-				"\uE003"
-			]
-		},
-		{
-			"type": "bitmap",
-			"file": "minecraft:font/llama.png",
-			"ascent": 7,
-			"height": 8,
-			"chars": [
-				"\uE004"
-			]
-		},
-		{
-			"type": "bitmap",
-			"file": "minecraft:font/eye.png",
-			"ascent": 7,
-			"height": 8,
-			"chars": [
-				"\uE005"
-			]
-		},
-		{
-			"type": "bitmap",
 			"file": "minecraft:font/error.png",
 			"ascent": 7,
 			"height": 7,
@@ -95,6 +41,15 @@
 			"height": 64,
 			"chars": [
 				"\uE009"
+			]
+		},
+                {
+			"type": "bitmap",
+			"file": "minecraft:font/emortalmc-menu-2.png",
+			"ascent": 40,
+			"height": 64,
+			"chars": [
+				"\uE010"
 			]
 		},
 		{
