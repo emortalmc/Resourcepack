@@ -3,5 +3,10 @@
         "category": "master",
         "subtitle": "Trumpet doot plays",
         "sounds": ["custom/doot"]
+    },
+    "entity.roblox.death": {
+        "category": "master",
+        "subtitle": "oof",
+        "sounds": ["custom/oof"]
     }
 }
