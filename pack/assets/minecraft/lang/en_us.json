@@ -1,8 +1,9 @@
 {
     "menu.game": "\uE009",
-    "menu.returnToGame": "Back to Cepi",
-    "menu.shareToLan": "§f§3cepi.world",
+    "menu.returnToGame": "Return to §f§dEmortalMC",
+    "menu.shareToLan": "§f§dmc.emortal.dev",
     "menu.loadingLevel": "",
+    "menu.disconnect": "§f§cDisconnect",
     "connect.joining": "",
     "multiplayer.downloadingTerrain": ""
 }
