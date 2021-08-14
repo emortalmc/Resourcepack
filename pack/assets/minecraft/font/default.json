@@ -1,5 +1,23 @@
 {
 	"providers": [
+                {
+                       "type": "bitmap",
+                       "file": "minecraft:font/space_split.png",
+                       "ascent": -32768,
+                       "height": -3,
+                       "chars": [
+                                "\uF801"
+                       ]
+                },
+                {
+                       "type": "bitmap",
+                       "file": "minecraft:font/space_split.png",
+                       "ascent": -32768,
+                       "height": -4,
+                       "chars": [
+                                "\uF802"
+                       ]
+                },
 		{
 			"type": "ttf",
 			"file": "minecraft:spacing.ttf",
@@ -37,8 +55,8 @@
 		{
 			"type": "bitmap",
 			"file": "minecraft:font/emortalmc-menu.png",
-			"ascent": 40,
-			"height": 64,
+			"ascent": 25,
+			"height": 80,
 			"chars": [
 				"\uE009"
 			]
@@ -46,8 +64,8 @@
                 {
 			"type": "bitmap",
 			"file": "minecraft:font/emortalmc-menu-2.png",
-			"ascent": 40,
-			"height": 64,
+			"ascent": 25,
+			"height": 80,
 			"chars": [
 				"\uE010"
 			]
