@@ -18,6 +18,60 @@
                                 "\uF802"
                        ]
                 },
+                {
+                       "type": "bitmap",
+                       "file": "minecraft:font/space_split.png",
+                       "ascent": -32768,
+                       "height": -5,
+                       "chars": [
+                                "\uF803"
+                       ]
+                },
+                {
+                       "type": "bitmap",
+                       "file": "minecraft:font/space_split.png",
+                       "ascent": -32768,
+                       "height": -6,
+                       "chars": [
+                                "\uF804"
+                       ]
+                },
+                {
+                       "type": "bitmap",
+                       "file": "minecraft:font/space_split.png",
+                       "ascent": -32768,
+                       "height": -7,
+                       "chars": [
+                                "\uF805"
+                       ]
+                },
+                {
+                       "type": "bitmap",
+                       "file": "minecraft:font/space_split.png",
+                       "ascent": -32768,
+                       "height": -8,
+                       "chars": [
+                                "\uF806"
+                       ]
+                },
+                {
+                       "type": "bitmap",
+                       "file": "minecraft:font/space_split.png",
+                       "ascent": -32768,
+                       "height": -9,
+                       "chars": [
+                                "\uF807"
+                       ]
+                },
+                {
+                       "type": "bitmap",
+                       "file": "minecraft:font/space_split.png",
+                       "ascent": -32768,
+                       "height": -10,
+                       "chars": [
+                                "\uF808"
+                       ]
+                },
 		{
 			"type": "ttf",
 			"file": "minecraft:spacing.ttf",
@@ -32,15 +86,6 @@
 			"height": 7,
 			"chars": [
 				"\uE006"
-			]
-		},
-		{
-			"type": "bitmap",
-			"file": "minecraft:font/question.png",
-			"ascent": 7,
-			"height": 7,
-			"chars": [
-				"\uE007"
 			]
 		},
 		{
@@ -79,7 +124,60 @@
 			"chars": [
 				"\uE00A"
 			]
+		},
+                {
+			"type": "bitmap",
+			"file": "minecraft:font/inv-noteblock.png",
+			"ascent": 14,
+			"height": 256,
+			"chars": [
+				"\uE00B"
+			]
+		},
+                {
+			"type": "bitmap",
+			"file": "minecraft:font/rank-icon-owner.png",
+			"ascent": 8,
+			"height": 64,
+			"chars": [
+				"\uE00C"
+			]
+		},
+                {
+			"type": "bitmap",
+			"file": "minecraft:font/rank-icon-admin.png",
+			"ascent": 8,
+			"height": 64,
+			"chars": [
+				"\uE00D"
+			]
+		},
+                {
+			"type": "bitmap",
+			"file": "minecraft:font/rank-icon-mod.png",
+			"ascent": 8,
+			"height": 32,
+			"chars": [
+				"\uE00E"
+			]
+		},
+                {
+			"type": "bitmap",
+			"file": "minecraft:font/rank-icon-helper.png",
+			"ascent": 8,
+			"height": 32,
+			"chars": [
+				"\uE00F"
+			]
+		},
+                {
+			"type": "bitmap",
+			"file": "minecraft:font/rank-icon-og.png",
+			"ascent": 8,
+			"height": 16,
+			"chars": [
+				"\uE011"
+			]
 		}
-		
 	]
 }

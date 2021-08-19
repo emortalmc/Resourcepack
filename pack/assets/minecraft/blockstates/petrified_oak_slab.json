@@ -3,9 +3,6 @@
     "type=bottom": {
       "model": "block/petrified_oak_slab"
     },
-    "type=double": {
-      "model": "block/ancient_debris_side"
-    },
     "type=top": {
       "model": "block/petrified_oak_slab_top"
     }
