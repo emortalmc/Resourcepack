@@ -1,7 +1,7 @@
 {
     "item.trumpet.doot": {
         "category": "master",
-        "subtitle": "Trumpet doot plays",
+        "subtitle": "Trumpet doots",
         "sounds": ["custom/doot"]
     },
     "entity.roblox.death": {

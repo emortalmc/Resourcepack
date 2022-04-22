@@ -1,0 +1,67 @@
+{
+  "targets": [
+    "final",
+    "swap",
+    "swap2"
+  ],
+  "passes": [
+    {
+      "name": "expand",
+      "intarget": "final",
+      "outtarget": "swap2",
+      "uniforms": [
+        {
+          "name": "ExpandDir",
+          "values": [ 1.0, 0.0 ]
+        }
+      ]
+    },
+    {
+      "name": "expand",
+      "intarget": "swap2",
+      "outtarget": "swap",
+      "uniforms": [
+        {
+          "name": "ExpandDir",
+          "values": [ 0.0, 1.0 ]
+        }
+      ]
+    },
+    {
+      "name": "gaussian_blur",
+      "intarget": "swap",
+      "outtarget": "swap2",
+      "uniforms": [
+        {
+          "name": "BlurDir",
+          "values": [ 1.0, 0.0 ]
+        }
+      ]
+    },
+    {
+      "name": "gaussian_blur",
+      "intarget": "swap2",
+      "outtarget": "swap",
+      "uniforms": [
+        {
+          "name": "BlurDir",
+          "values": [ 0.0, 1.0 ]
+        }
+      ]
+    },
+    {
+      "name": "mask",
+      "intarget": "swap",
+      "outtarget": "swap2",
+      "auxtargets": [{
+        "name": "MaskSampler",
+        "id": "final"
+      }]
+    },
+    {
+      "name": "blit",
+      "intarget": "swap2",
+      "outtarget": "final"
+    }
+  ]
+}
