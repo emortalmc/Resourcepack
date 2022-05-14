@@ -13,6 +13,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: ComunidadAylas/PackSquash-action@v2.0.3
+        with:
+          path: "pack/"
       - uses: vimtor/action-zip@v1
         with:
           files: pack/
