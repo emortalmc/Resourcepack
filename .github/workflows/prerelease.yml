@@ -11,15 +11,18 @@ jobs:
     runs-on: "ubuntu-latest"
 
     steps:
-      - uses: actions/checkout@v2
-      - uses: ComunidadAylas/PackSquash-action@v2.0.3
+      - name: Clone repository
+        uses: actions/checkout@v2
         with:
-          path: "pack/"
-      - uses: vimtor/action-zip@v1
+          fetch-depth: 0 # A non-shallow repository clone is required
+      - name: Run PackSquash
+        uses: ComunidadAylas/PackSquash-action@v2
+      - name: Download optimized pack
+        uses: actions/download-artifact@v2
         with:
-          files: pack/
-          dest: pack.zip
-      - uses: "marvinpinto/action-automatic-releases@latest"
+          name: Optimized pack
+      - name: Publish release 
+        uses: "marvinpinto/action-automatic-releases@latest"
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
           automatic_release_tag: "latest"
