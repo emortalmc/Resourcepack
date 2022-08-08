@@ -2,13 +2,11 @@
     "menu.game": "\uE009\uF801\uE010",
     "menu.returnToGame": "§fReturn to §d§lEmortalMC",
     "menu.shareToLan": "§f§7mc.emortal.dev",
-    "menu.loadingLevel": "",
     "menu.disconnect": "§f§c§lDisconnect",
-    "connect.joining": "",
-    "multiplayer.downloadingTerrain": "",
     "title.multiplayer.other": "EmortalMC",
     "menu.sendFeedback": "§f§7Give Feedback",
     "menu.reportBugs": "§f§7Report Bugs",
+    "menu.playerReporting": "§f§7Antisocial Menu",
     "gui.advancements": "§f§7Achievements",
     "gui.stats": "§f§7Statistics"
 }
