@@ -1,5 +1,6 @@
 # Resource Pack
 
-Contains textures from
-- [Vanilla Tweaks](https://vanillatweaks.net/share#iIVDex)
-- [Moulberry](https://github.com/Moulberry) (Glow shader)
+Contains
+- Battle sfx and some OST
+- EmortalMC branding lol
+- Rank icons

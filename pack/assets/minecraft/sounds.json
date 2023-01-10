@@ -8,5 +8,71 @@
         "category": "master",
         "subtitle": "oof",
         "sounds": ["custom/oof"]
+    },
+    "battle.countdown.begin": {
+    	"category": "master",
+    	"subtitle": "Countdown",
+    	"sounds": ["custom/battle/begincountdown"]
+    },
+    "battle.countdown.beginover": {
+    	"category": "master",
+    	"subtitle": "Game start",
+    	"sounds": ["custom/battle/beginover"]
+    },
+    "battle.countdown.invulover": {
+    	"category": "master",
+    	"subtitle": "Invulnerability ended",
+    	"sounds": ["custom/battle/invulover"]
+    },
+    "battle.death": {
+    	"category": "master",
+    	"subtitle": "Player died",
+    	"sounds": ["custom/battle/playerdeath1", "custom/battle/playerdeath2"]
+    },
+    "battle.refill.open": {
+    	"category": "master",
+    	"subtitle": "Chest refill",
+    	"sounds": ["custom/battle/refillopen1", "custom/battle/refillopen2"]
+    },
+    "battle.refill.close": {
+    	"category": "master",
+    	"subtitle": "Chest refill",
+    	"sounds": ["custom/battle/refillclose1", "custom/battle/refillclose2"]
+    },
+    "battle.showdown": {
+    	"category": "master",
+    	"subtitle": "Showdown",
+    	"sounds": ["custom/battle/showdown"]
+    },
+    "battle.showdown.count1": {
+    	"category": "master",
+    	"subtitle": "Showdown count",
+    	"sounds": ["custom/battle/showdowncountdown1"]
+    },
+    "battle.showdown.count2": {
+    	"category": "master",
+    	"subtitle": "Showdown count",
+    	"sounds": ["custom/battle/showdowncountdown2"]
+    },
+    
+    "battle.music.battlemode1": {
+    	"category": "master",
+    	"subtitle": "Battle music",
+    	"sounds": ["custom/battle/music/battlemode1"]
+    },
+    "battle.music.battlemode2": {
+    	"category": "master",
+    	"subtitle": "Battle music",
+    	"sounds": ["custom/battle/music/battlemode2"]
+    },
+    "battle.music.battlemode3": {
+    	"category": "master",
+    	"subtitle": "Battle music",
+    	"sounds": ["custom/battle/music/battlemode3"]
+    },
+    "battle.music.battlemode4": {
+    	"category": "master",
+    	"subtitle": "Battle music",
+    	"sounds": ["custom/battle/music/battlemode4"]
     }
 }
