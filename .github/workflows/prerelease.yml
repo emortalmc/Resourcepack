@@ -20,7 +20,7 @@ jobs:
         with:
           path: pack
       - name: Download optimized pack
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
         with:
           name: Optimized pack
       - name: Publish release 
