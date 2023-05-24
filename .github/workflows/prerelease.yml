@@ -19,6 +19,7 @@ jobs:
         uses: ComunidadAylas/PackSquash-action@v3.0.2
         with:
           path: pack
+          zip_spec_conformance_level: disregard
       - name: Download optimized pack
         uses: actions/download-artifact@v2
         with:
