@@ -8,5 +8,7 @@
     "menu.reportBugs": "§f§7Report Bugs",
     "menu.playerReporting": "§f§7Antisocial Menu",
     "gui.advancements": "§f§7Achievements",
-    "gui.stats": "§f§7Statistics"
+    "gui.stats": "§f§7Statistics",
+    
+    "item.minecraft.leather_helmet": "Sunglasses"
 }

@@ -32,12 +32,12 @@
     "battle.refill.open": {
     	"category": "master",
     	"subtitle": "Chest refill",
-    	"sounds": ["custom/battle/refillopen1", "custom/battle/refillopen2"]
+    	"sounds": ["custom/battle/refillopen1"]
     },
     "battle.refill.close": {
     	"category": "master",
     	"subtitle": "Chest refill",
-    	"sounds": ["custom/battle/refillclose1", "custom/battle/refillclose2"]
+    	"sounds": ["custom/battle/refillclose1"]
     },
     "battle.showdown": {
     	"category": "master",
@@ -53,26 +53,5 @@
     	"category": "master",
     	"subtitle": "Showdown count",
     	"sounds": ["custom/battle/showdowncountdown2"]
-    },
-    
-    "battle.music.battlemode1": {
-    	"category": "master",
-    	"subtitle": "Battle music",
-    	"sounds": ["custom/battle/music/battlemode1"]
-    },
-    "battle.music.battlemode2": {
-    	"category": "master",
-    	"subtitle": "Battle music",
-    	"sounds": ["custom/battle/music/battlemode2"]
-    },
-    "battle.music.battlemode3": {
-    	"category": "master",
-    	"subtitle": "Battle music",
-    	"sounds": ["custom/battle/music/battlemode3"]
-    },
-    "battle.music.battlemode4": {
-    	"category": "master",
-    	"subtitle": "Battle music",
-    	"sounds": ["custom/battle/music/battlemode4"]
     }
 }
