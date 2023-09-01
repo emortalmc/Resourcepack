@@ -202,6 +202,33 @@
 			"chars": [
 				"\uE00D"
 			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/chestrefill/chest1.png",
+			"ascent": 16,
+			"height": 17,
+			"chars": [
+				"\uE00E"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/chestrefill/chest2.png",
+			"ascent": 16,
+			"height": 17,
+			"chars": [
+				"\uE00F"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/chestrefill/chest3.png",
+			"ascent": 16,
+			"height": 17,
+			"chars": [
+				"\uE010"
+			]
 		}
 	]
 }
