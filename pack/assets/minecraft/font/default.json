@@ -205,6 +205,15 @@
 		},
 		{
 			"type": "bitmap",
+			"file": "minecraft:font/badges/hollowcube.png",
+			"ascent": 10,
+			"height": 12,
+			"chars": [
+				"\uE011"
+			]
+		},
+		{
+			"type": "bitmap",
 			"file": "minecraft:font/chestrefill/chest1.png",
 			"ascent": 16,
 			"height": 17,
