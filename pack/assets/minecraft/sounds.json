@@ -9,6 +9,11 @@
         "subtitle": "oof",
         "sounds": ["custom/oof"]
     },
+    "random.cube.zap": {
+      "category": "master",
+      "subtitle": "Cube zaps",
+      "sounds": ["custom/electric-zap"]
+    },
     "battle.countdown.begin": {
     	"category": "master",
     	"subtitle": "Countdown",
