@@ -21,9 +21,17 @@ jobs:
           packsquash_version: latest
           options: |
             pack_directory = 'pack'
-            output_file_path = '/tmp/pack.zip'
             zip_spec_conformance_level = 'disregard'
-      - name: Create release
-        uses: softprops/action-gh-release@v2
+      - name: Download optimized pack
+        uses: actions/download-artifact@v2
         with:
-          files: /tmp/pack.zip
+          name: Optimized pack
+      - name: Publish release 
+        uses: "marvinpinto/action-automatic-releases@latest"
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          automatic_release_tag: "latest"
+          prerelease: true
+          title: "Development Build"
+          files: |
+            pack.zip
