@@ -22,16 +22,9 @@ jobs:
           options: |
             pack_directory = 'pack'
             zip_spec_conformance_level = 'disregard'
-      - name: Download optimized pack
-        uses: actions/download-artifact@v2
+            output_file_path = '/tmp/pack.zip'
+      - name: Tag and create release
+        uses: softprops/action-gh-release@v2
         with:
-          name: Optimized pack
-      - name: Publish release 
-        uses: "marvinpinto/action-automatic-releases@latest"
-        with:
-          repo_token: "${{ secrets.GITHUB_TOKEN }}"
-          automatic_release_tag: "latest"
-          prerelease: true
-          title: "Development Build"
-          files: |
-            pack.zip
+          tag_name: action-v${{ github.run_number }}
+          files: /tmp/pack.zip
