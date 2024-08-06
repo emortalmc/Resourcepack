@@ -1,4 +1,4 @@
-name: "pre-release"
+name: "Optimize resource pack"
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
 
 jobs:
   pre-release:
-    name: "Pre Release"
+    name: "Optimize resource pack"
     runs-on: "ubuntu-latest"
 
     steps:
@@ -16,20 +16,14 @@ jobs:
         with:
           fetch-depth: 0 # A non-shallow repository clone is required
       - name: Run PackSquash
-        uses: ComunidadAylas/PackSquash-action@v3.0.2
+        uses: ComunidadAylas/PackSquash-action@v4.0.2
         with:
-          path: pack
-          zip_spec_conformance_level: disregard
-      - name: Download optimized pack
-        uses: actions/download-artifact@v2
+          packsquash_version: latest
+          options: |
+            pack_directory = 'path'
+            output_file_path = '/tmp/pack.zip'
+            zip_spec_conformance_level = 'disregard'
+      - name: Create release
+        uses: softprops/action-gh-release@v2
         with:
-          name: Optimized pack
-      - name: Publish release 
-        uses: "marvinpinto/action-automatic-releases@latest"
-        with:
-          repo_token: "${{ secrets.GITHUB_TOKEN }}"
-          automatic_release_tag: "latest"
-          prerelease: true
-          title: "Development Build"
-          files: |
-            pack.zip
+          files: /tmp/pack.zip
