@@ -73,14 +73,14 @@ void main() {
     // Emortal Cube: rgb(40, 36, 37)
     if (same(40.0/255.0, texColor.r, 0.0001) && same(36.0/255.0, texColor.g, 0.0001) && same(37.0/255.0, texColor.b, 0.0001)) {
         // Pixelate
-        int res = 64;
+        int res = 128;
         vec2 pixelTex = texCoord0;
         pixelTex.y *= 0.5;
         pixelTex *= res * 10;
         pixelTex = floor(pixelTex);
         pixelTex /= res * 10;
 
-        vec2 uv = (pixelTex) * 20;
+        vec2 uv = (pixelTex) * 40;
         float shade = pattern(uv);
         color = vec4(colormap(shade).rgb, 1.0);
         color.a = 1.0;
