@@ -20,7 +20,7 @@ jobs:
         with:
           packsquash_version: latest
           options: |
-            pack_directory = './path/'
+            pack_directory = 'pack'
             output_file_path = '/tmp/pack.zip'
             zip_spec_conformance_level = 'disregard'
       - name: Create release
