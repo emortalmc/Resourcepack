@@ -7,6 +7,8 @@
         {"predicate": {"custom_model_data":1}, "model": "item/trumpet"},
         {"predicate": {"custom_model_data":2}, "model": "item/emortalbox"},
         {"predicate": {"custom_model_data":3}, "model": "item/birthdayhat"},
-        {"predicate": {"custom_model_data":4}, "model": "item/puncher"}
+        {"predicate": {"custom_model_data":4}, "model": "item/puncher"},
+        {"predicate": {"custom_model_data":5}, "model": "item/streetsign"},
+        {"predicate": {"custom_model_data":6}, "model": "item/emotes"}
     ]
 }
