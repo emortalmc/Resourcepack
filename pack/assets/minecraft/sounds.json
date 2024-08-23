@@ -74,5 +74,10 @@
       "category": "master",
       "subtitle": "Emote plays",
       "sounds": ["custom/boogiedown"]
+    },
+    "emote.song.gangnamstyle": {
+      "category": "master",
+      "subtitle": "Emote plays",
+      "sounds": ["custom/gangnam"]
     }
 }
