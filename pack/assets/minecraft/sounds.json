@@ -69,5 +69,10 @@
       "category": "master",
       "subtitle": "",
       "sounds": ["custom/absmuffled"]
+    },
+    "emote.song.boogiedown": {
+      "category": "master",
+      "subtitle": "Emote plays",
+      "sounds": ["custom/boogiedown"]
     }
 }
