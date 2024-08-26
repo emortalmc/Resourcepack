@@ -205,15 +205,6 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "minecraft:font/badges/hollowcube.png",
-			"ascent": 9,
-			"height": 10,
-			"chars": [
-				"\uE011"
-			]
-		},
-		{
-			"type": "bitmap",
 			"file": "minecraft:font/chestrefill/chest1.png",
 			"ascent": 16,
 			"height": 17,
@@ -237,6 +228,96 @@
 			"height": 17,
 			"chars": [
 				"\uE010"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/badges/hollowcube.png",
+			"ascent": 9,
+			"height": 10,
+			"chars": [
+				"\uE011"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/posters/emortalneedsyou.png",
+			"ascent": 7,
+			"height": 7,
+			"chars": [
+				"\uE012"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/posters/ging.png",
+			"ascent": 7,
+			"height": 7,
+			"chars": [
+				"\uE013"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/posters/bominternet.png",
+			"ascent": 7,
+			"height": 7,
+			"chars": [
+				"\uE014"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/posters/antonii.png",
+			"ascent": 7,
+			"height": 7,
+			"chars": [
+				"\uE015"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/posters/nomoregames.png",
+			"ascent": 7,
+			"height": 7,
+			"chars": [
+				"\uE016"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/posters/unlimitedbacon.png",
+			"ascent": 7,
+			"height": 7,
+			"chars": [
+				"\uE017"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/graffiti/graffiti1.png",
+			"ascent": 7,
+			"height": 7,
+			"chars": [
+				"\uE018"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/graffiti/graffiti2.png",
+			"ascent": 7,
+			"height": 7,
+			"chars": [
+				"\uE019"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/graffiti/graffiti3.png",
+			"ascent": 7,
+			"height": 7,
+			"chars": [
+				"\uE01A"
 			]
 		}
 	]
