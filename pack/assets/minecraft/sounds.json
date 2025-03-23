@@ -79,5 +79,11 @@
       "category": "master",
       "subtitle": "Emote plays",
       "sounds": ["custom/gangnam"]
+    },
+
+    "entity.roblox.reporter": {
+      "category": "master",
+      "subtitle": "Reporter reports",
+      "sounds": ["custom/reporter-reporting"]
     }
 }

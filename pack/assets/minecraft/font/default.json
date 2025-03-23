@@ -319,6 +319,24 @@
 			"chars": [
 				"\uE01A"
 			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/reporter-1.png",
+			"ascent": 25,
+			"height": 80,
+			"chars": [
+				"\uE01B"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/reporter-2.png",
+			"ascent": 25,
+			"height": 80,
+			"chars": [
+				"\uE01C"
+			]
 		}
 	]
 }
