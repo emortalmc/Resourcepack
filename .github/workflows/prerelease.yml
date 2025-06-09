@@ -18,7 +18,7 @@ jobs:
       - name: Run PackSquash
         uses: ComunidadAylas/PackSquash-action@v4.0.3
         with:
-          packsquash_version: latest_unstable
+          packsquash_version: latest-unstable
           options: |
             pack_directory = 'pack'
             zip_spec_conformance_level = 'high'
