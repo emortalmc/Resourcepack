@@ -21,7 +21,7 @@ jobs:
           packsquash_version: latest-unstable
           options: |
             pack_directory = 'pack'
-            zip_spec_conformance_level = 'disregard'
+            zip_spec_conformance_level = 'high'
             recompress_compressed_files = true
             output_file_path = '/tmp/pack.zip'
             skip_pack_icon = true
