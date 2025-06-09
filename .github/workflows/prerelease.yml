@@ -18,19 +18,12 @@ jobs:
       - name: Run PackSquash
         uses: ComunidadAylas/PackSquash-action@v4.0.3
         with:
-          packsquash_version: latest
+          packsquash_version: latest_unstable
           options: |
             pack_directory = 'pack'
             zip_spec_conformance_level = 'high'
             output_file_path = '/tmp/pack.zip'
             skip_pack_icon = true
-
-            # Fix for stable player display
-            shader_source_transformation_strategy = 'keep_as_is'
-            ['**/*?.fsh']
-            force_include = true
-            ['**/*?.vsh']
-            force_include = true
       - name: Tag and create release
         uses: softprops/action-gh-release@v2
         with:
