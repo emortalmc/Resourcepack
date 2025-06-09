@@ -12,7 +12,7 @@ jobs:
 
     steps:
       - name: Clone repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0 # A non-shallow repository clone is required
       - name: Run PackSquash
@@ -23,8 +23,10 @@ jobs:
             pack_directory = 'pack'
             zip_spec_conformance_level = 'high'
             output_file_path = '/tmp/pack.zip'
-            
-            # Temp fix for packsquash, not including shaders for some reason
+            skip_pack_icon = true
+
+            # Fix for stable player display
+            shader_source_transformation_strategy = 'keep_as_is'
             ['**/*?.fsh']
             force_include = true
             ['**/*?.vsh']
