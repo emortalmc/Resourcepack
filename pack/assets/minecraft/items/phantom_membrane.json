@@ -32,7 +32,7 @@
                 "when": "puncher",
                 "model": {
                     "type": "model",
-                    "model": "item/puncher"
+                    "model": "item/blocksumo/puncher"
                 }
             },
             {
@@ -47,6 +47,13 @@
                 "model": {
                     "type": "model",
                     "model": "item/emotes"
+                }
+            },
+            {
+                "when": "gungun",
+                "model": {
+                    "type": "model",
+                    "model": "item/lazertag/gungun"
                 }
             }
         ]

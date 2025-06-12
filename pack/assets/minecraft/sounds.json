@@ -1,89 +1,129 @@
 {
-    "item.trumpet.doot": {
-        "category": "master",
-        "subtitle": "Trumpet doots",
-        "sounds": ["custom/doot"]
-    },
-    "entity.roblox.death": {
-        "category": "master",
-        "subtitle": "oof",
-        "sounds": ["custom/oof"]
-    },
-    "random.cube.zap": {
-      "category": "master",
-      "subtitle": "Cube zaps",
-      "sounds": ["custom/electric-zap"]
-    },
-    "battle.countdown.begin": {
-    	"category": "master",
-    	"subtitle": "Countdown",
-    	"sounds": ["custom/battle/begincountdown"]
-    },
-    "battle.countdown.beginover": {
-    	"category": "master",
-    	"subtitle": "Game start",
-    	"sounds": ["custom/battle/beginover"]
-    },
-    "battle.countdown.invulover": {
-    	"category": "master",
-    	"subtitle": "Invulnerability ended",
-    	"sounds": ["custom/battle/invulover"]
-    },
-    "battle.death": {
-    	"category": "master",
-    	"subtitle": "Player died",
-    	"sounds": ["custom/battle/playerdeath1", "custom/battle/playerdeath2"]
-    },
-    "battle.refill.open": {
-    	"category": "master",
-    	"subtitle": "Chest refill",
-    	"sounds": ["custom/battle/refillopen1"]
-    },
-    "battle.refill.close": {
-    	"category": "master",
-    	"subtitle": "Chest refill",
-    	"sounds": ["custom/battle/refillclose1"]
-    },
-    "battle.showdown": {
-    	"category": "master",
-    	"subtitle": "Showdown",
-    	"sounds": ["custom/battle/showdown"]
-    },
-    "battle.showdown.count1": {
-    	"category": "master",
-    	"subtitle": "Showdown count",
-    	"sounds": ["custom/battle/showdowncountdown1"]
-    },
-    "battle.showdown.count2": {
-    	"category": "master",
-    	"subtitle": "Showdown count",
-    	"sounds": ["custom/battle/showdowncountdown2"]
-    },
-
-    "song.abs.clear": {
-        "category": "master",
-        "subtitle": "",
-        "sounds": ["custom/absclear"]
-    },
-    "song.abs.muffled": {
-      "category": "master",
-      "subtitle": "",
-      "sounds": ["custom/absmuffled"]
-    },
-    "emote.song.boogiedown": {
-      "category": "master",
-      "subtitle": "Emote plays",
-      "sounds": ["custom/boogiedown"]
-    },
-    "emote.song.gangnamstyle": {
-      "category": "master",
-      "subtitle": "Emote plays",
-      "sounds": ["custom/gangnam"]
-    },
-
-    "entity.roblox.reporter": {
-      "category": "master",
-      "subtitle": "Reporter reports",
-      "sounds": ["custom/reporter-reporting"]
-    }
+  "item.trumpet.doot": {
+    "category": "master",
+    "subtitle": "Trumpet doots",
+    "sounds": [
+      "custom/doot"
+    ]
+  },
+  "entity.roblox.death": {
+    "category": "master",
+    "subtitle": "oof",
+    "sounds": [
+      "custom/oof"
+    ]
+  },
+  "random.cube.zap": {
+    "category": "master",
+    "subtitle": "Cube zaps",
+    "sounds": [
+      "custom/electric-zap"
+    ]
+  },
+  "battle.countdown.begin": {
+    "category": "master",
+    "subtitle": "Countdown",
+    "sounds": [
+      "custom/battle/begincountdown"
+    ]
+  },
+  "battle.countdown.beginover": {
+    "category": "master",
+    "subtitle": "Game start",
+    "sounds": [
+      "custom/battle/beginover"
+    ]
+  },
+  "battle.countdown.invulover": {
+    "category": "master",
+    "subtitle": "Invulnerability ended",
+    "sounds": [
+      "custom/battle/invulover"
+    ]
+  },
+  "battle.death": {
+    "category": "master",
+    "subtitle": "Player died",
+    "sounds": [
+      "custom/battle/playerdeath1",
+      "custom/battle/playerdeath2"
+    ]
+  },
+  "battle.refill.open": {
+    "category": "master",
+    "subtitle": "Chest refill",
+    "sounds": [
+      "custom/battle/refillopen1"
+    ]
+  },
+  "battle.refill.close": {
+    "category": "master",
+    "subtitle": "Chest refill",
+    "sounds": [
+      "custom/battle/refillclose1"
+    ]
+  },
+  "battle.showdown": {
+    "category": "master",
+    "subtitle": "Showdown",
+    "sounds": [
+      "custom/battle/showdown"
+    ]
+  },
+  "battle.showdown.count1": {
+    "category": "master",
+    "subtitle": "Showdown count",
+    "sounds": [
+      "custom/battle/showdowncountdown1"
+    ]
+  },
+  "battle.showdown.count2": {
+    "category": "master",
+    "subtitle": "Showdown count",
+    "sounds": [
+      "custom/battle/showdowncountdown2"
+    ]
+  },
+  "lazertag.pew": {
+    "category": "master",
+    "subtitle": "pew",
+    "sounds": [
+      "custom/lazertag/pew1", "custom/lazertag/pew2", "custom/lazertag/pew3"
+    ]
+  },
+  "song.abs.clear": {
+    "category": "master",
+    "subtitle": "",
+    "sounds": [
+      "custom/absclear"
+    ]
+  },
+  "song.abs.muffled": {
+    "category": "master",
+    "subtitle": "",
+    "sounds": [
+      "custom/absmuffled"
+    ]
+  },
+  "emote.song.boogiedown": {
+    "category": "master",
+    "subtitle": "Emote plays",
+    "sounds": [
+      "custom/boogiedown"
+    ]
+  },
+  "emote.song.gangnamstyle": {
+    "category": "master",
+    "subtitle": "Emote plays",
+    "sounds": [
+      "custom/gangnam"
+    ]
+  },
+  "entity.roblox.reporter": {
+    "category": "master",
+    "subtitle": "Reporter reports",
+    "sounds": [
+      "custom/reporter-reporting"
+    ]
+  }
 }

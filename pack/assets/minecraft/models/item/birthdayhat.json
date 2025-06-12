@@ -1,7 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"2": "item/birthdayhat"
+		"2": "item/birthdayhat",
+		"particle": "item/birthdayhat"
 	},
 	"elements": [
 		{
