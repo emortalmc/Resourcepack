@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "item/gungun",
-		"particle": "item/gungun"
+		"0": "emortalmc:item/gungun",
+		"particle": "emortalmc:item/gungun"
 	},
 	"elements": [
 		{

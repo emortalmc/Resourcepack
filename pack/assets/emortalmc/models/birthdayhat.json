@@ -2,8 +2,8 @@
 	"format_version": "1.21.6",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"2": "item/birthdayhat",
-		"particle": "item/birthdayhat"
+		"2": "emortalmc:item/birthdayhat",
+		"particle": "emortalmc:item/birthdayhat"
 	},
 	"elements": [
 		{

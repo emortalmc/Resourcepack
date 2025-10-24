@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "item/emortalanim",
-		"particle": "item/emortalanim"
+		"1": "emortalmc:item/emortalanim",
+		"particle": "emortalmc:item/emortalanim"
 	},
 	"elements": [
 		{

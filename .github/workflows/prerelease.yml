@@ -23,6 +23,9 @@ jobs:
             pack_directory = 'pack'
             zip_spec_conformance_level = 'high'
             recompress_compressed_files = true
+            validate_pack_metadata_file = false
+            automatic_minecraft_quirks_detection = false
+            automatic_asset_types_mask_detection = false
             output_file_path = '/tmp/pack.zip'
             skip_pack_icon = true
       - name: Tag and create release

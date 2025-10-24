@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"1": "item/streetsign",
-		"particle": "item/streetsign"
+		"1": "emortalmc:item/streetsign",
+		"particle": "emortalmc:item/streetsign"
 	},
 	"elements": [
 		{
