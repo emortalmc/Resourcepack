@@ -119,6 +119,13 @@
       "custom/gangnam"
     ]
   },
+  "emote.song.reanimated": {
+    "category": "master",
+    "subtitle": "Emote plays",
+    "sounds": [
+      "custom/reanimated"
+    ]
+  },
   "entity.roblox.reporter": {
     "category": "master",
     "subtitle": "Reporter reports",
