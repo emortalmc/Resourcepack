@@ -1,5 +1,5 @@
 {
-    "menu.game": "\uE003\uF801\uE004",
+    "menu.game": "\uE003\uF001\uE004",
     "menu.returnToGame": "§fReturn to §d§lEmortalMC",
     "menu.shareToLan": "§f§7mc.emortal.dev",
     "menu.disconnect": "§f§c§lDisconnect",
@@ -10,5 +10,34 @@
     "gui.advancements": "§f§7Achievements",
     "gui.stats": "§f§7Statistics",
     
-    "item.minecraft.leather_helmet": "Sunglasses"
+    "item.minecraft.leather_helmet": "Sunglasses",
+
+    "space.-1": "\uF001",
+    "space.-2": "\uF002",
+    "space.-3": "\uF025",
+    "space.-4": "\uF003",
+    "space.-5": "\uF026",
+    "space.-6": "\uF027",
+    "space.-7": "\uF028",
+    "space.-8": "\uF004",
+    "space.-16": "\uF005",
+    "space.-32": "\uF006",
+    "space.-64": "\uF007",
+    "space.-128": "\uF008",
+    "space.-256": "\uF009",
+    "space.-512": "\uF010",
+    "space.1": "\uF011",
+    "space.2": "\uF012",
+    "space.3": "\uF013",
+    "space.4": "\uF014",
+    "space.5": "\uF015",
+    "space.6": "\uF016",
+    "space.7": "\uF017",
+    "space.8": "\uF018",
+    "space.16": "\uF019",
+    "space.32": "\uF020",
+    "space.64": "\uF021",
+    "space.128": "\uF022",
+    "space.256": "\uF023",
+    "space.512": "\uF024"
 }

@@ -1,76 +1,37 @@
 {
 	"providers": [
 		{
-			"type": "bitmap",
-			"file": "minecraft:font/space_split.png",
-			"ascent": -32768,
-			"height": -3,
-			"chars": [
-					"\uF801"
-			]
-		},
-		{
-			"type": "bitmap",
-			"file": "minecraft:font/space_split.png",
-			"ascent": -32768,
-			"height": -4,
-			"chars": [
-					"\uF802"
-			]
-		},
-		{
-			"type": "bitmap",
-			"file": "minecraft:font/space_split.png",
-			"ascent": -32768,
-			"height": -5,
-			"chars": [
-					"\uF803"
-			]
-		},
-		{
-			"type": "bitmap",
-			"file": "minecraft:font/space_split.png",
-			"ascent": -32768,
-			"height": -6,
-			"chars": [
-					"\uF804"
-			]
-		},
-		{
-			"type": "bitmap",
-			"file": "minecraft:font/space_split.png",
-			"ascent": -32768,
-			"height": -7,
-			"chars": [
-					"\uF805"
-			]
-		},
-		{
-			"type": "bitmap",
-			"file": "minecraft:font/space_split.png",
-			"ascent": -32768,
-			"height": -8,
-			"chars": [
-					"\uF806"
-			]
-		},
-		{
-			"type": "bitmap",
-			"file": "minecraft:font/space_split.png",
-			"ascent": -32768,
-			"height": -9,
-			"chars": [
-					"\uF807"
-			]
-		},
-		{
-			"type": "bitmap",
-			"file": "minecraft:font/space_split.png",
-			"ascent": -32768,
-			"height": -10,
-			"chars": [
-					"\uF808"
-			]
+			"type": "space",
+			"advances": {
+				"\uF001": -1,
+				"\uF002": -2,
+				"\uF025": -3,
+				"\uF003": -4,
+				"\uF026": -5,
+				"\uF027": -6,
+				"\uF028": -7,
+				"\uF004": -8,
+				"\uF005": -16,
+				"\uF006": -32,
+				"\uF007": -64,
+				"\uF008": -128,
+				"\uF009": -256,
+				"\uF010": -512,
+				"\uF011": 1,
+				"\uF012": 2,
+				"\uF013": 3,
+				"\uF014": 4,
+				"\uF015": 5,
+				"\uF016": 6,
+				"\uF017": 7,
+				"\uF018": 8,
+				"\uF019": 16,
+				"\uF020": 32,
+				"\uF021": 64,
+				"\uF022": 128,
+				"\uF023": 256,
+				"\uF024": 512
+			}
 		},
 
 		{
@@ -336,6 +297,24 @@
 			"height": 80,
 			"chars": [
 				"\uE01C"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/heart/container.png",
+			"ascent": 8,
+			"height": 9,
+			"chars": [
+				"\uE01D"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/heart/full.png",
+			"ascent": 8,
+			"height": 9,
+			"chars": [
+				"\uE01E"
 			]
 		}
 	]
