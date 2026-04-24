@@ -3,6 +3,10 @@
 #moj_import <minecraft:fog.glsl>
 #moj_import <minecraft:dynamictransforms.glsl>
 
+#ifdef DISSOLVE
+uniform sampler2D DissolveMaskSampler;
+#endif
+
 #if defined(ALPHA_CUTOUT) && !defined(EMISSIVE) && !defined(NO_OVERLAY) && !defined(APPLY_TEXTURE_MATRIX)
 #define MAYBE_PLAYERDISP 1
 #endif
@@ -12,8 +16,12 @@ uniform sampler2D Sampler0;
 in float sphericalVertexDistance;
 in float cylindricalVertexDistance;
 in vec4 vertexColor;
+#ifndef EMISSIVE
 in vec4 lightMapColor;
+#endif
+#ifndef NO_OVERLAY
 in vec4 overlayColor;
+#endif
 in vec2 texCoord0;
 #ifdef MAYBE_PLAYERDISP
 in vec2 texCoord1;
@@ -39,7 +47,16 @@ void main() {
         discard;
     }
 #endif
-    color *= vertexColor * ColorModulator;
+    vec4 faceVertexColor = vertexColor;
+
+#ifdef DISSOLVE
+    if (faceVertexColor.a < texture(DissolveMaskSampler, texCoord0).a) {
+        discard;
+    }
+    // The dissolve effect entirely replaces translucency
+    faceVertexColor.a = 1.0;
+#endif
+    color *= faceVertexColor * ColorModulator;
 #ifndef NO_OVERLAY
     color.rgb = mix(overlayColor.rgb, color.rgb, overlayColor.a);
 #endif

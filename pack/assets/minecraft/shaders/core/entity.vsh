@@ -4,6 +4,7 @@
 #moj_import <minecraft:fog.glsl>
 #moj_import <minecraft:dynamictransforms.glsl>
 #moj_import <minecraft:projection.glsl>
+#moj_import <minecraft:sample_lightmap.glsl>
 
 #if defined(ALPHA_CUTOUT) && !defined(EMISSIVE) && !defined(NO_OVERLAY) && !defined(APPLY_TEXTURE_MATRIX)
 #define MAYBE_PLAYERDISP 1
@@ -21,14 +22,22 @@ in vec3 Normal;
 #ifdef MAYBE_PLAYERDISP
 uniform sampler2D Sampler0;
 #endif
+#ifndef NO_OVERLAY
 uniform sampler2D Sampler1;
+#endif
+#ifndef EMISSIVE
 uniform sampler2D Sampler2;
+#endif
 
 out float sphericalVertexDistance;
 out float cylindricalVertexDistance;
 out vec4 vertexColor;
+#ifndef EMISSIVE
 out vec4 lightMapColor;
+#endif
+#ifndef NO_OVERLAY
 out vec4 overlayColor;
+#endif
 out vec2 texCoord0;
 #ifdef MAYBE_PLAYERDISP
 out vec2 texCoord1;
@@ -85,8 +94,12 @@ void main() {
 #else
     vertexColor = minecraft_mix_light(Light0_Direction, Light1_Direction, Normal, Color);
 #endif
-    lightMapColor = texelFetch(Sampler2, UV2 / 16, 0);
+#ifndef EMISSIVE
+    lightMapColor = sample_lightmap(Sampler2, UV2);
+#endif
+#ifndef NO_OVERLAY
     overlayColor = texelFetch(Sampler1, UV1, 0);
+#endif
 
 #ifdef MAYBE_PLAYERDISP
     ivec2 dim = textureSize(Sampler0, 0);
