@@ -109,21 +109,21 @@
     "category": "master",
     "subtitle": "Emote plays",
     "sounds": [
-      "custom/boogiedown"
+      "custom/emotes/boogiedown"
     ]
   },
   "emote.song.gangnamstyle": {
     "category": "master",
     "subtitle": "Emote plays",
     "sounds": [
-      "custom/gangnam"
+      "custom/emotes/gangnam"
     ]
   },
   "emote.song.reanimated": {
     "category": "master",
     "subtitle": "Emote plays",
     "sounds": [
-      "custom/reanimated"
+      "custom/emotes/reanimated"
     ]
   },
   "entity.roblox.reporter": {
