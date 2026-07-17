@@ -122,9 +122,9 @@ void main() {
             //int vertexId = gl_VertexID % 4;
             //int faceId = (gl_VertexID % 24) / 4;
 
-            int outerLayer = ((gl_VertexID - BASE_VERTEX) % 4 / 24) % 2;
-            int vertexId = (gl_VertexID - BASE_VERTEX) % 4 % 4;
-            int faceId = ((gl_VertexID - BASE_VERTEX) % 4 % 24) / 4;
+            int outerLayer = ((gl_VertexID - gl_BaseVertexARB) % 4 / 24) % 2;
+            int vertexId = (gl_VertexID - gl_BaseVertexARB) % 4 % 4;
+            int faceId = ((gl_VertexID - gl_BaseVertexARB) % 4 % 24) / 4;
 
             ivec2 faceIdTmp = ivec2(round(UV0 * SKINRES));
 
