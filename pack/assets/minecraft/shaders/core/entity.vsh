@@ -1,4 +1,4 @@
-#version 150
+#version 330
 
 #moj_import <minecraft:light.glsl>
 #moj_import <minecraft:fog.glsl>
@@ -118,9 +118,14 @@ void main() {
             vec4 samp2 = texture(Sampler0, SLIMCHECK1);
             bool slim = samp1.a == 0.0 || (((samp1.r + samp1.g + samp1.b) == 0.0) && ((samp2.r + samp2.g + samp2.b) == 0.0) && samp1.a == 1.0 && samp2.a == 1.0);
             int partIdMod = partId % 5;
-            int outerLayer = (gl_VertexID / 24) % 2; 
-            int vertexId = gl_VertexID % 4;
-            int faceId = (gl_VertexID % 24) / 4;
+            //int outerLayer = (gl_VertexID / 24) % 2;
+            //int vertexId = gl_VertexID % 4;
+            //int faceId = (gl_VertexID % 24) / 4;
+
+            int outerLayer = ((gl_VertexID - BASE_VERTEX) % 4 / 24) % 2;
+            int vertexId = (gl_VertexID - BASE_VERTEX) % 4 % 4;
+            int faceId = ((gl_VertexID - BASE_VERTEX) % 4 % 24) / 4;
+
             ivec2 faceIdTmp = ivec2(round(UV0 * SKINRES));
 
             // find the desired part UV origin
