@@ -69,7 +69,7 @@ void main() {
     if (part > 1.0 - 10e-6 && fragColor.a < 1.0) {
         fragColor.a = max(fragColor.a, MINALPHA);
 
-        vec3 underCol = texture(Sampler0, texCoord1).rgb;
+        vec3 underCol = texture(Sampler0, texCoord0).rgb;
         vec3 trueMix = mix(underCol, fragColor.rgb, fragColor.a);
         float fade = mix(fragColor.a, 1.0, clamp((cylindricalVertexDistance - FADEBIAS) / (FADERANGE - FADEBIAS), 0.0, 1.0));
 
