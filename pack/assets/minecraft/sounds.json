@@ -17,7 +17,7 @@
     "category": "master",
     "subtitle": "Cube zaps",
     "sounds": [
-      "custom/electric-zap"
+      "custom/lobby/electric-zap"
     ]
   },
   "battle.countdown.begin": {
@@ -95,14 +95,14 @@
     "category": "master",
     "subtitle": "",
     "sounds": [
-      "custom/absclear"
+      "custom/lobby/absclear"
     ]
   },
   "song.abs.muffled": {
     "category": "master",
     "subtitle": "",
     "sounds": [
-      "custom/absmuffled"
+      "custom/lobby/absmuffled"
     ]
   },
   "emote.song.boogiedown": {
@@ -130,7 +130,14 @@
     "category": "master",
     "subtitle": "Reporter reports",
     "sounds": [
-      "custom/reporter-reporting"
+      "custom/lobby/reporter-reporting"
+    ]
+  },
+  "entity.cat.chilllikethat": {
+    "category": "master",
+    "subtitle": "Cat being chill like that",
+    "sounds": [
+      "custom/lobby/chilllikethat"
     ]
   }
 }
