@@ -9,6 +9,10 @@
     "menu.playerReporting": "§f§7Antisocial Menu",
     "gui.advancements": "§f§7Achievements",
     "gui.stats": "§f§7Statistics",
+
+    "multiplayer.downloadingTerrain": "\uE000",
+    "connect.reconfiging": "\uE000",
+    "connect.reconfiguring": "\uE000",
     
     "item.minecraft.leather_helmet": "Sunglasses",
 
