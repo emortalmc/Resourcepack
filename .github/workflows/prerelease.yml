@@ -28,6 +28,8 @@ jobs:
             automatic_asset_types_mask_detection = false
             output_file_path = '/tmp/pack.zip'
             skip_pack_icon = true
+            
+            ['**/*?.{fsh,vsh,glsl}']
             shader_source_transformation_strategy = 'keep_as_is'
       - name: Tag and create release
         uses: softprops/action-gh-release@v2
