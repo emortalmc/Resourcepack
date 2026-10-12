@@ -28,6 +28,12 @@ jobs:
             automatic_asset_types_mask_detection = false
             output_file_path = '/tmp/pack.zip'
             skip_pack_icon = true
+            
+            ['**/*?.vsh']
+            force_include = true
+
+            ['**/*?.fsh']
+            force_include = true
       - name: Tag and create release
         uses: softprops/action-gh-release@v2
         with:
