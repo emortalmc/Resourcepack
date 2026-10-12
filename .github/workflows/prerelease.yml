@@ -33,10 +33,9 @@ jobs:
       #       shader_source_transformation_strategy = 'keep_as_is'
       - name: Zip folder
         run: |
-          # Ensure the destination directory exists
           mkdir -p /tmp
-          # Compress the 'pack' folder into /tmp/pack.zip
-          zip -r /tmp/pack.zip pack/
+          cd pack
+          zip -r /tmp/pack.zip *
       - name: Tag and create release
         uses: softprops/action-gh-release@v2
         with:
