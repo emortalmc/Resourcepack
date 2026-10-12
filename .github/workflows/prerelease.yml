@@ -31,9 +31,11 @@ jobs:
             
             ['**/*?.vsh']
             force_include = true
+            shader_source_transformation_strategy = 'keep_as_is'
 
             ['**/*?.fsh']
             force_include = true
+            shader_source_transformation_strategy = 'keep_as_is'
       - name: Tag and create release
         uses: softprops/action-gh-release@v2
         with:
