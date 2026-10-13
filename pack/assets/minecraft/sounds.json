@@ -126,6 +126,13 @@
       "custom/emotes/reanimated"
     ]
   },
+  "emote.song.drlivesey": {
+    "category": "master",
+    "subtitle": "Emote plays",
+    "sounds": [
+      "custom/emotes/drlivesey"
+    ]
+  },
   "entity.roblox.reporter": {
     "category": "master",
     "subtitle": "Reporter reports",
